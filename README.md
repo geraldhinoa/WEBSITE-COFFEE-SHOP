@@ -1,5 +1,7 @@
 # ☕ WEBSITE COFFEE SHOP  
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Website%20Coffee%20Shop-blue?style=for-the-badge&logo=github)](https://geraldhinoa.github.io/WEBSITE-COFFEE-SHOP/)
+
 Website Coffee Shop adalah **landing page modern** dengan desain responsif, mendukung **dark mode**, dan dilengkapi dengan tampilan interaktif untuk memberikan pengalaman pengguna yang menarik.  
 
 ## 🌟 Fitur Utama  
@@ -8,7 +10,7 @@ Website Coffee Shop adalah **landing page modern** dengan desain responsif, mend
 - ✅ **Galeri foto** dengan efek glassmorphism  
 - ✅ **Navigasi rapi** dengan smooth scroll  
 - ✅ **Form kontak interaktif**  
- 
+
 ## 🚀 Cara Menjalankan  
 1. Clone repository ini  
    ```bash
