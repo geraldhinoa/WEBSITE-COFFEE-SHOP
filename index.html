@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Vibes</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">☕ Coffee Vibes</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <canvas id="coffeeCanvas"></canvas>
+    <div class="hero-content">
+      <h1>Rasakan Nikmatnya Coffee Vibes</h1>
+      <p>Kopi premium dengan suasana cozy modern untuk hari yang lebih produktif.</p>
+      <a href="#menu" class="btn">Jelajahi Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Carousel -->
+  <section id="menu">
+    <h2 class="section-title">Menu Unggulan</h2>
+    <div class="carousel">
+      <button class="prev">&#10094;</button>
+      <div class="carousel-track">
+        <div class="card">
+          <img src="https://www.sharmispassions.com/wp-content/uploads/2012/07/espresso-coffee-recipe04-500x500.jpg" alt="Espresso">
+          <h3>Espresso</h3>
+          <p>Kopi pekat dengan cita rasa klasik.</p>
+        </div>
+        <div class="card">
+          <img src="https://nibble-images.b-cdn.net/nibble/original_images/diffcoffee1.jpg" alt="Latte">
+          <h3>Latte</h3>
+          <p>Kopi susu lembut penuh kehangatan.</p>
+        </div>
+        <div class="card">
+          <img src="https://img-global.cpcdn.com/recipes/78c6e03a3c2abd39/680x781cq80/es-cappucino-cincau-foto-resep-utama.jpg" alt="Cappuccino">
+          <h3>Cappuccino</h3>
+          <p>Perpaduan foam creamy dan espresso.</p>
+        </div>
+        <div class="card">
+          <img src="https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg" alt="Mocha">
+          <h3>Mocha</h3>
+          <p>Kopi dengan sentuhan cokelat manis.</p>
+        </div>
+      </div>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+<section id="gallery">
+  <h2 class="section-title">Galeri</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://texascoffeeschool.com/wp-content/uploads/2021/10/DSC_0052-scaled.jpg" alt="Coffee Shop">
+      <p>Coffee Shop</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/11/19/63fdd270-93d2-4804-a822-1d998c671575.jpg" alt="Coffee Cup">
+      <p>Coffee Cup</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://youngontop.com/wp-content/uploads/2024/07/shutterstock_726805228-Optimized.jpg" alt="Coffee Barista">
+      <p>Coffee Barista</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://www.nescafe.com/gb/sites/default/files/2023-11/Untitled-5%20copy_6.jpg" alt="Coffee Beans">
+      <p>Coffee Beans</p>
+    </div>
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">Tentang Kami</h2>
+    <div class="about-container">
+      <img src="https://www.ledyilighting.com/wp-content/uploads/2024/07/Ambient-Lighting.jpg" alt="About Us">
+      <div class="about-text">
+        <p>Coffee Vibes hadir sejak 2020 untuk memberikan pengalaman ngopi modern dengan bahan kopi pilihan terbaik. Setiap cangkir adalah cerita yang menenangkan jiwa.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 class="section-title">Kontak Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" rows="5" required></textarea>
+      <button type="submit" class="btn">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Coffee Vibes. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
